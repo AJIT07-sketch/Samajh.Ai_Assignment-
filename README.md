@@ -34,8 +34,8 @@ The system is built with a modular architecture:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/object-detection-changes.git
-cd object-detection-changes
+git clone https://github.com/yourusername/samajh.ai_assignment.git
+cd python src/main.py
 ```
 
 2. Install dependencies:
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 3. (Optional) Build and run with Docker:
 ```bash
-docker build -t object-detection-changes .
+docker build -t samajh.ai_assignment .
 docker run --gpus all -v /path/to/videos:/videos object-detection-changes --input /videos/input.mp4 --output /videos/output.mp4
 ```
 
